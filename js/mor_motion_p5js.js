@@ -20,7 +20,7 @@ var targetFPS = 40;
 var avgFPS = 30;
 
 function setup() {
-  createCanvas(document.body.clientWidth, document.body.clientHeight, "WEBGL");
+  createCanvas(0, 0, "WEBGL");
   for ( var i = 0; i < maxNum; i++ ) {
     ax[i] = random(width);
     ay[i] = random(height);
