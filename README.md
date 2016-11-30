@@ -1,2 +1,2 @@
 # mor
-mor.github.io website
+http://worosom.github.io/mor website
