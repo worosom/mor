@@ -53,13 +53,6 @@ function draw() {
   avgNum += (num - avgNum) * .01;
 }
 
-function mousePressed() {
-  for ( var i = 0; i < maxNum; i++ ) {
-    ax[i] = random(width);
-    ay[i] = random(height);
-  }
-}
-
 function update() {
   // Shift all elements 1 place to the left
 
