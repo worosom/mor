@@ -11,7 +11,7 @@ var w = "innerWidth" in window
                ? window.innerWidth
                : document.documentElement.offsetHeight;
 var c = 900000;
-var num = 100;
+var num = 50;
 var avgNum = 10;
 var maxNum = 2000;
 
